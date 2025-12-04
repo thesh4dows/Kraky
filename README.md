@@ -8,12 +8,12 @@ if there is any type of problem with the device it can be repaired without a swe
 
 # Components:
 
--logic board/wifi/bluetooth->esp32-s3
--sub ghz antenna->cc1101
--battery
--rfid
--battery protector-> tp4056
--20 gpio pins(females)
--microsd slot
--usb type-c
--ir transceiver
+- logic board/wifi/bluetooth->esp32-s3
+- sub ghz antenna->cc1101
+- battery
+- rfid
+- battery protector-> tp4056
+- 20 gpio pins(females)
+- microsd slot
+- usb type-c
+- ir transceiver
