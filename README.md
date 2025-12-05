@@ -18,3 +18,8 @@ if there is any type of problem with the device it can be repaired without a swe
 - usb type-c
 - ir transceiver
 - nfc transceiver
+
+# The start of the project
+
+<img width="2339" height="1654" alt="scheme" src="https://github.com/user-attachments/assets/1626d6f5-307c-4bb1-85bb-4e4a790e12ef" />
+This was the firts sketch of the project that inspired me, now i've came a long way both in kicad skills and chip knowlege but there is still a long way to go.
