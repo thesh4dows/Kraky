@@ -18,6 +18,7 @@ if there is any type of problem with the device it can be repaired without a swe
 - usb type-c
 - ir transceiver
 - nfc transceiver
+- 5 buttons
 
 # The start of the project
 
