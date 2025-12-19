@@ -27,5 +27,5 @@ This was the firts sketch of the project that inspired me, now i've came a long 
 
 # The first version of the elettric diagram
 
-<img width="2339" height="1654" alt="schema-elettrico1" src="https://github.com/user-attachments/assets/cd7f2644-a360-4862-9c9b-c46d9130e8fc" />
-this is the first version of the elettric diagram of the device, it's still a work in progress and i admit that probably i made some mistakes but i think it works.
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/677e1146-7904-484f-a8f8-a3d9d14d5772" />
+
