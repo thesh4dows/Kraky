@@ -34,3 +34,7 @@ This was the firts sketch of the project that inspired me, now i've came a long 
 
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/677e1146-7904-484f-a8f8-a3d9d14d5772" />
 
+# The third version of the elettric diagram
+
+<img width="2339" height="1654" alt="schema-elettrico-3" src="https://github.com/user-attachments/assets/7befed15-7662-4fee-96a9-f394c7928868" />
+
