@@ -27,14 +27,26 @@ This was the firts sketch of the project that inspired me, now i've came a long 
 
 # The first version of the elettric diagram
 
+This is the first version of the elettric diagram, in fact it was the first time ever that i made an elettric diagram, there are a lot fo things to do but i'm already improving.
+
 <img width="2339" height="1654" alt="schema-elettrico1" src="https://github.com/user-attachments/assets/244b8a31-ba79-4162-bc07-26a6d296d100" />
 
 
 # The second version of the elettric diagram
 
+This is the second version of the elettric diagram where i improved some things like the charging method.
+
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/677e1146-7904-484f-a8f8-a3d9d14d5772" />
 
 # The third version of the elettric diagram
 
+This is the third version of the elettric diagram where i improve the smoothness of the current that flows on some capacitors to ensure the long life of the componets 
+
 <img width="2339" height="1654" alt="schema-elettrico-3" src="https://github.com/user-attachments/assets/7befed15-7662-4fee-96a9-f394c7928868" />
+
+# The first version of the 3D render
+
+This is the first version of the enclosure of the Kraky, like for the elettric diagram it was also de first time that i done something like that, and it's still very rough but i've already some changes in mind.
+
+<img width="1920" height="842" alt="kraky" src="https://github.com/user-attachments/assets/510a1fe3-8ec6-4968-82c1-166bb77219dc" />
 
