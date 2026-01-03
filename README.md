@@ -40,7 +40,7 @@ This is the second version of the elettric diagram where i improved some things 
 
 # The third version of the elettric diagram
 
-This is the third version of the elettric diagram where i improve the smoothness of the current that flows on some capacitors to ensure the long life of the componets 
+This is the third version of the elettric diagram where i improve the smoothness of the current that flows on some capacitors to ensure the long life of the componets.
 
 <img width="2339" height="1654" alt="schema-elettrico-3" src="https://github.com/user-attachments/assets/7befed15-7662-4fee-96a9-f394c7928868" />
 
@@ -50,3 +50,8 @@ This is the first version of the enclosure of the Kraky, like for the elettric d
 
 <img width="1920" height="842" alt="kraky" src="https://github.com/user-attachments/assets/510a1fe3-8ec6-4968-82c1-166bb77219dc" />
 
+# The second version of the 3D render
+
+This is the second version of the enclosure of the Kraky, i added more holes for all the modules like the 10 gpio pins, the switch and the cutout for the ir transreciver.
+
+<img width="1920" height="842" alt="kraky v6" src="https://github.com/user-attachments/assets/1063f1d2-6d28-4f8f-b820-846ed62322e1" />
