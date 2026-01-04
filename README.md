@@ -14,11 +14,11 @@ if there is any type of problem with the device it can be repaired without a swe
 - rfid-> RDM6300
 - battery protector-> tp4056
 - 10 gpio pins(females)
-- microsd slot-> CM1624
+- microsd slot-> CM1624 -> not implemented in the pcb yet
 - usb type-c
 - ir transceiver-> reciver TSOP38238, trasmiter IR LED
 - nfc-> ST25R3911B-AQF
-- 5 buttons
+- 4 buttons
 
 # The start of the project
 
@@ -55,3 +55,10 @@ This is the first version of the enclosure of the Kraky, like for the elettric d
 This is the second version of the enclosure of the Kraky, i added more holes for all the modules like the 10 gpio pins, the switch and the cutout for the ir transreciver.
 
 <img width="1920" height="842" alt="kraky v6" src="https://github.com/user-attachments/assets/1063f1d2-6d28-4f8f-b820-846ed62322e1" />
+
+# The first render of the pcb
+
+I made this pcb starting from the schematic made previosly and svilupping it on 3 layers, this version is very modular for an easier debugging.
+
+<img width="858" height="881" alt="Screenshot 2026-01-04 152653" src="https://github.com/user-attachments/assets/4b19a7ce-57b9-4f3d-8297-5cf9dd6f6eb1" />
+
