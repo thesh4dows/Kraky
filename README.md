@@ -15,7 +15,7 @@ if there is any type of problem with the device it can be repaired without a swe
 - battery protector-> tp4056
 - 10 gpio pins(females)
 - microsd slot-> CM1624 -> not implemented in the pcb yet
-- usb type-c
+- speaker
 - ir transceiver-> reciver TSOP38238, trasmiter IR LED
 - nfc-> ST25R3911B-AQF
 - 4 buttons
