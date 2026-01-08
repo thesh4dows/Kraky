@@ -1,64 +1,154 @@
-# Kraky
-Its a diy project of a device that emulates the flipper zero but using well available and cheap parts.
-Hi i'm thesh a 17 years old thinkerer that likes a lot to expirience with microcontrollers, i always 
-wanted a Flipper Zero but the price it's always has been out of my reach so i always wanted to build one myself.
-When i've se the Blueprint project i felt that is my chance to build a "Flipper Zero 2" myself and then share my 
-expirience and project with others. Another characteristic that my device will have is a high reparability so 
-if there is any type of problem with the device it can be repaired without a sweat.
+# 🐙 Kraky
 
-# Components:
+**Kraky** is a DIY, open-hardware device inspired by the **Flipper Zero**, built using **cheap and widely available components**, with a strong focus on **modularity, repairability, and learning**.
 
-- logic board/wifi/bluetooth->esp32-s3
-- sub ghz antenna->RFM98W-433S2
-- battery
-- rfid-> RDM6300
-- battery protector-> tp4056
-- 10 gpio pins(females)
-- microsd slot-> CM1624 -> not implemented in the pcb yet
-- speaker
-- ir transceiver-> reciver TSOP38238, trasmiter IR LED
-- nfc-> ST25R3911B-AQF
-- 4 buttons
+Hi! I'm **Thesh**, a **17-year-old tinkerer** who loves experimenting with microcontrollers and embedded systems.  
+I’ve always wanted a Flipper Zero, but its price has always been out of my reach.  
+Instead of giving up, I decided to **build my own device**, improve it step by step, and share the entire journey with others.
 
-# The start of the project
+When I discovered the *Blueprint* project, I realized it was the perfect opportunity to create my own  
+**“Flipper Zero 2”** — something powerful, hackable, understandable, and **easy to repair**.
 
-<img width="2339" height="1654" alt="scheme" src="https://github.com/user-attachments/assets/1626d6f5-307c-4bb1-85bb-4e4a790e12ef" />
-This was the firts sketch of the project that inspired me, now i've came a long way both in kicad skills and chip knowlege but there is still a long way to go.
+Kraky is designed to be:
+- 🧩 **Modular**
+- 🔧 **Highly repairable**
+- 💸 **Affordable**
+- 📖 **Fully documented**
+- 🧠 **Educational**
 
-# The first version of the elettric diagram
+---
 
-This is the first version of the elettric diagram, in fact it was the first time ever that i made an elettric diagram, there are a lot fo things to do but i'm already improving.
+## ⚠️ Educational Purpose Only
 
-<img width="2339" height="1654" alt="schema-elettrico1" src="https://github.com/user-attachments/assets/244b8a31-ba79-4162-bc07-26a6d296d100" />
+Kraky is an **educational and experimental project** created for the purpose of **learning electronics, embedded systems, and hardware design**.
 
+This project is intended **for educational purposes only**.  
+It is **not designed, promoted, or intended** for illegal, unethical, or malicious activities.
 
-# The second version of the elettric diagram
+The author takes **no responsibility** for any misuse of the information, schematics, firmware, or hardware designs provided in this repository.  
+Users are responsible for ensuring that their use of this project complies with **local laws and regulations**.
 
-This is the second version of the elettric diagram where i improved some things like the charging method.
+By using or contributing to this project, you agree to use it **responsibly and legally**.
 
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/677e1146-7904-484f-a8f8-a3d9d14d5772" />
+---
 
-# The third version of the elettric diagram
+## ✨ Features (Planned & Implemented)
 
-This is the third version of the elettric diagram where i improve the smoothness of the current that flows on some capacitors to ensure the long life of the componets.
+- Wi-Fi & Bluetooth connectivity
+- Sub-GHz communication
+- RFID & NFC support
+- Infrared transceiver
+- GPIO expansion
+- microSD support *(planned)*
+- Speaker
+- Rechargeable battery with protection
+- Custom 3D-printed enclosure
 
-<img width="2339" height="1654" alt="schema-elettrico-3" src="https://github.com/user-attachments/assets/7befed15-7662-4fee-96a9-f394c7928868" />
+---
 
-# The first version of the 3D render
+## 🔩 Components
 
-This is the first version of the enclosure of the Kraky, like for the elettric diagram it was also de first time that i done something like that, and it's still very rough but i've already some changes in mind.
+| Function | Component |
+|--------|----------|
+| Logic board / Wi-Fi / Bluetooth | **ESP32-S3** |
+| Sub-GHz | **RFM98W-433S2** |
+| RFID | **RDM6300** |
+| NFC | **ST25R3911B-AQF** |
+| Battery charger | **TP4056** |
+| Battery | Li-ion |
+| IR Receiver | **TSOP38238** |
+| IR Transmitter | IR LED |
+| Speaker | Passive |
+| GPIO Expansion | 10 Female GPIO pins |
+| microSD Slot | **CM1624** *(not yet implemented in PCB)* |
+| Buttons | 4 tactile buttons |
 
-<img width="1920" height="842" alt="kraky" src="https://github.com/user-attachments/assets/510a1fe3-8ec6-4968-82c1-166bb77219dc" />
+---
 
-# The second version of the 3D render
+## 🚀 Project Timeline
 
-This is the second version of the enclosure of the Kraky, i added more holes for all the modules like the 10 gpio pins, the switch and the cutout for the ir transreciver.
+### 🧠 The Beginning
+This was the **very first sketch** that inspired the project.  
+At that time, my KiCad and electronics knowledge was limited, but this concept pushed me to learn and improve.
 
-<img width="1920" height="842" alt="kraky v6" src="https://github.com/user-attachments/assets/1063f1d2-6d28-4f8f-b820-846ed62322e1" />
+![Initial concept](https://github.com/user-attachments/assets/1626d6f5-307c-4bb1-85bb-4e4a790e12ef)
 
-# The first render of the pcb
+---
 
-I made this pcb starting from the schematic made previosly and svilupping it on 3 layers, this version is very modular for an easier debugging.
+### ⚡ First Electrical Schematic
+My **first-ever electrical schematic**.  
+Far from perfect, but it marked the real beginning of the project.
 
-<img width="858" height="881" alt="Screenshot 2026-01-04 152653" src="https://github.com/user-attachments/assets/4b19a7ce-57b9-4f3d-8297-5cf9dd6f6eb1" />
+![Electrical schematic v1](https://github.com/user-attachments/assets/244b8a31-ba79-4162-bc07-26a6d296d100)
 
+---
+
+### 🔋 Second Electrical Schematic
+Improved power management and **better battery charging logic**.
+
+![Electrical schematic v2](https://github.com/user-attachments/assets/677e1146-7904-484f-a8f8-a3d9d14d5772)
+
+---
+
+### 🔌 Third Electrical Schematic
+Added proper **decoupling capacitors** and improved current stability to increase component lifespan.
+
+![Electrical schematic v3](https://github.com/user-attachments/assets/7befed15-7662-4fee-96a9-f394c7928868)
+
+---
+
+## 🧱 Enclosure Design
+
+### First 3D Render
+My first attempt at enclosure design — rough, but functional.
+
+![Enclosure v1](https://github.com/user-attachments/assets/510a1fe3-8ec6-4968-82c1-166bb77219dc)
+
+---
+
+### Second 3D Render
+Added cutouts for:
+- GPIO pins
+- Switch
+- IR transceiver  
+
+Much more refined and practical.
+
+![Enclosure v2](https://github.com/user-attachments/assets/1063f1d2-6d28-4f8f-b820-846ed62322e1)
+
+---
+
+## 🖥️ PCB Design
+
+### First PCB Render
+The PCB was designed starting from the schematic and developed on **3 layers**.  
+This version focuses on **modularity**, making debugging and repairs much easier.
+
+![PCB render](https://github.com/user-attachments/assets/4b19a7ce-57b9-4f3d-8297-5cf9dd6f6eb1)
+
+---
+
+## 🛠️ Future Plans
+
+- Implement microSD slot
+- Firmware development
+- Power optimization
+- Smaller and cleaner PCB revision
+- Community contributions and feedback
+
+---
+
+## 🤝 Contributing
+
+Kraky is an **open project**.  
+Ideas, improvements, bug reports, and pull requests are **more than welcome**.
+
+---
+
+## 📜 License
+
+This project will be released under an **open-source license** (TBD).
+
+---
+
+> If you like this project, consider ⭐ starring the repository and sharing it!
