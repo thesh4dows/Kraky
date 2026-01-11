@@ -142,6 +142,14 @@ This version prioritizes **modularity and accessibility**, making debugging and 
 
 ---
 
+### Fourth Electrical Schematic
+I'm starting to search part on Aliexpress, so i found the esp32 that i wanna use, i changed the elettric scheme with the new esp32 and i rerouted all the connections.
+
+![Electrical schematic v4](https://github.com/user-attachments/assets/2c8b5e91-b52f-4c38-a808-ecc594651594)
+
+
+---
+
 ## ❌ Mistakes & Lessons Learned
 
 - I underestimated the importance of decoupling capacitors in early designs
