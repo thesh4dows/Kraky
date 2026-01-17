@@ -75,6 +75,8 @@ By following the development of Kraky, you can learn:
 | GPIO Expansion | 10 Female GPIO pins |
 | microSD Slot | **CM1624** *(not yet implemented in PCB)* |
 | Buttons | 4 tactile buttons |
+| Oscilloscope | MPU6050 |
+
 
 ---
 
@@ -111,6 +113,21 @@ To fix this, I added **proper decoupling capacitors** near critical components, 
 
 ---
 
+### Fifth Electrical Schematic
+I've implemented an oscilloscope, and rerouted alla the connections. 
+
+![Electrical schematic v5](https://github.com/user-attachments/assets/f3bbda9f-fc4b-4820-83d0-cf5b13a426c0)
+
+
+---
+
+### Fourth Electrical Schematic
+I'm starting to search part on Aliexpress, so i found the esp32 that i wanna use, i changed the elettric scheme with the new esp32 and i rerouted all the connections.
+
+![Electrical schematic v4](https://github.com/user-attachments/assets/2c8b5e91-b52f-4c38-a808-ecc594651594)
+
+
+---
 ## 🧱 Enclosure Design
 
 ### First 3D Render
@@ -140,15 +157,14 @@ This version prioritizes **modularity and accessibility**, making debugging and 
 
 ![PCB render](https://github.com/user-attachments/assets/4b19a7ce-57b9-4f3d-8297-5cf9dd6f6eb1)
 
----
+### Second PCB Revision
+I've adapted some parts and tried to fit all under 100x100 mm, plus change fo the esp32 and i've added the oscilloscope.
 
-### Fourth Electrical Schematic
-I'm starting to search part on Aliexpress, so i found the esp32 that i wanna use, i changed the elettric scheme with the new esp32 and i rerouted all the connections.
-
-![Electrical schematic v4](https://github.com/user-attachments/assets/2c8b5e91-b52f-4c38-a808-ecc594651594)
-
+![PCB renderv2](https://github.com/user-attachments/assets/dc1c2707-668c-4c30-83f6-dfbb92da3883)
 
 ---
+
+
 
 ## ❌ Mistakes & Lessons Learned
 
