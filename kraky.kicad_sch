@@ -1341,6 +1341,312 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SL_Breakout_Boards:MPU6050"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MPU6050"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SL_Breakout_Boards:MPU6050_Breakout"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -11.43 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MPU6050 Breakout Board, 6-Axis Motion Sensor, Gyroscope, Accelerometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MPU6050"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MPU6050_0_0"
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "X"
+					(at 2.54 -7.366 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Y"
+					(at 5.08 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "MPU6050_0_1"
+				(rectangle
+					(start -6.35 10.16)
+					(end 6.35 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -8.128) (xy 2.032 -8.636)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -8.128) (xy 3.048 -8.636)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -8.128) (xy 2.54 -10.16) (xy 4.572 -10.16)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -10.16) (xy 4.064 -9.652)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -10.16) (xy 4.064 -10.668)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MPU6050_1_1"
+				(pin bidirectional line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "ADO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "XCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "XDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SL_Connectors:JST_02"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5824,6 +6130,12 @@
 		)
 	)
 	(junction
+		(at 90.17 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0052f048-bab2-4ac9-be12-ddf688543cf0")
+	)
+	(junction
 		(at 207.01 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5858,6 +6170,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2592e413-24c3-432a-b786-45cbc3985740")
+	)
+	(junction
+		(at 163.83 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3051cc20-16d7-4080-8705-67b5c718582f")
 	)
 	(junction
 		(at 45.72 81.28)
@@ -5900,6 +6218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4982d326-f03e-40f8-883d-cee263ac8e95")
+	)
+	(junction
+		(at 45.72 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a43837f-1480-425c-a878-e7d122bf7263")
 	)
 	(junction
 		(at 227.33 20.32)
@@ -5962,6 +6286,12 @@
 		(uuid "8262af7a-8346-4b85-907c-cd5148b127ab")
 	)
 	(junction
+		(at 106.68 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92955eaa-abbf-4806-a8d3-0d70ce8d7d49")
+	)
+	(junction
 		(at 220.98 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6008,6 +6338,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab49751d-b19d-4aa4-916a-4994e8215b83")
+	)
+	(junction
+		(at 104.14 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae9e0722-495c-4cbc-b869-337aa82d8f4a")
+	)
+	(junction
+		(at 160.02 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d077a98e-4faa-4162-8b4c-042154fcf906")
 	)
 	(junction
 		(at 156.21 50.8)
@@ -6184,6 +6526,16 @@
 			(type default)
 		)
 		(uuid "0e0a4d17-900e-4f55-a5e9-7efc6f6a5c8c")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edb97ea-c561-4c24-9977-4358bcd25818")
 	)
 	(wire
 		(pts
@@ -6377,6 +6729,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 120.65) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219a1605-1ede-428a-a1fa-2198b7808ffd")
+	)
+	(wire
+		(pts
 			(xy 146.05 34.29) (xy 130.81 34.29)
 		)
 		(stroke
@@ -6497,7 +6859,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 132.08) (xy 86.36 132.08)
+			(xy 139.7 132.08) (xy 104.14 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6614,6 +6976,16 @@
 			(type default)
 		)
 		(uuid "4a56f6d6-fcec-4f6b-951c-1b53e2dd23ca")
+	)
+	(wire
+		(pts
+			(xy 45.72 96.52) (xy 45.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8594c2-2b8e-482a-a7e2-a610813a8a25")
 	)
 	(wire
 		(pts
@@ -6947,7 +7319,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 120.65) (xy 53.34 120.65)
+			(xy 139.7 120.65) (xy 106.68 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7094,6 +7466,26 @@
 			(type default)
 		)
 		(uuid "70ae31c5-2207-4f14-8219-d4685e75147f")
+	)
+	(wire
+		(pts
+			(xy 123.19 105.41) (xy 123.19 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711efc7c-76d3-477a-997d-ff05bb761183")
+	)
+	(wire
+		(pts
+			(xy 45.72 96.52) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a569d8-b617-429c-b32d-ba73a20ba271")
 	)
 	(wire
 		(pts
@@ -7527,6 +7919,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 114.3) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985b6a30-3cb7-487b-94d8-fac238bbb1a7")
+	)
+	(wire
+		(pts
 			(xy 204.47 167.64) (xy 248.92 167.64)
 		)
 		(stroke
@@ -7747,6 +8149,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 160.02) (xy 81.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48aa1f2-bf51-49fe-a533-84a44cf7fd68")
+	)
+	(wire
+		(pts
 			(xy 132.08 113.03) (xy 132.08 36.83)
 		)
 		(stroke
@@ -7884,6 +8296,16 @@
 			(type default)
 		)
 		(uuid "c47778d3-f389-4906-86c8-2fdc89e70886")
+	)
+	(wire
+		(pts
+			(xy 81.28 105.41) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f2b13b-772c-4fdc-bb23-54ebe7b0b061")
 	)
 	(wire
 		(pts
@@ -8137,6 +8559,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 114.3) (xy 106.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce7946c-291c-4d73-991d-89d5d80febca")
+	)
+	(wire
+		(pts
 			(xy 176.53 12.7) (xy 176.53 24.13)
 		)
 		(stroke
@@ -8144,6 +8576,16 @@
 			(type default)
 		)
 		(uuid "dd662ec9-1907-48b0-9515-880d02f85b27")
+	)
+	(wire
+		(pts
+			(xy 104.14 132.08) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df129051-700d-46b7-a1e4-be80d9a13f6a")
 	)
 	(wire
 		(pts
@@ -8267,7 +8709,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 81.28) (xy 45.72 125.73)
+			(xy 45.72 81.28) (xy 45.72 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8314,6 +8756,16 @@
 			(type default)
 		)
 		(uuid "eb676441-3844-448c-af29-4b2e7023af93")
+	)
+	(wire
+		(pts
+			(xy 123.19 161.29) (xy 163.83 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba31e62-a61b-44b9-901b-388a4dbf444c")
 	)
 	(wire
 		(pts
@@ -8364,6 +8816,16 @@
 			(type default)
 		)
 		(uuid "f02f8fb3-705c-4b37-864b-798d07085c2d")
+	)
+	(wire
+		(pts
+			(xy 90.17 105.41) (xy 95.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10d56a0-8b9b-43b1-a31a-57c80d2526b8")
 	)
 	(wire
 		(pts
@@ -8454,6 +8916,16 @@
 			(type default)
 		)
 		(uuid "f72be57d-a32b-4394-b460-31167f7c3b83")
+	)
+	(wire
+		(pts
+			(xy 160.02 160.02) (xy 81.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77a841c-4961-4e11-ab04-8de5ad700ea4")
 	)
 	(wire
 		(pts
@@ -8564,6 +9036,24 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 248.92 90.17 0)
 			(effects
 				(font
@@ -8732,6 +9222,24 @@
 				)
 			)
 		)
+		(property "funzione" ""
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "D0"
 			(uuid "043ed4d5-23a5-4557-8d60-f346a0b6ee6d")
 		)
@@ -8797,7 +9305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 246.38 63.1952 0)
 			(effects
 				(font
@@ -8824,6 +9332,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 250.19 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 250.19 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "607ec22f-4685-4ce0-ac27-ab916854abf6")
 		)
@@ -8834,6 +9360,128 @@
 			(project ""
 				(path "/1ac9d5cb-4fb9-489b-a239-e9e55bf2c5f0"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Breakout_Boards:MPU6050")
+		(at 107.95 105.41 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "163a2380-b1a1-499d-9a72-1836caee28d7")
+		(property "Reference" "U4"
+			(at 127 110.8554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPU6050"
+			(at 127 108.3154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SL_Breakout_Boards:MPU6050_Breakout"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MPU6050 Breakout Board, 6-Axis Motion Sensor, Gyroscope, Accelerometer"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzionalità " "oscilloscopio"
+			(at 107.95 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 107.95 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 107.95 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 107.95 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a81f7fd4-4b49-4d56-807a-b3fe995fb639")
+		)
+		(pin "3"
+			(uuid "3df6b4c0-411f-4db8-bab3-b3b782d05e3e")
+		)
+		(pin "8"
+			(uuid "1ba593c4-eb54-451a-9adb-25c51e7fa338")
+		)
+		(pin "4"
+			(uuid "74ca441e-7a11-4800-85a8-d950cf6c4d57")
+		)
+		(pin "1"
+			(uuid "a186b8d2-2761-4b76-8f79-4d278ba616ac")
+		)
+		(pin "5"
+			(uuid "a78067c8-40ec-4cbe-b8d8-5e35fc548521")
+		)
+		(pin "6"
+			(uuid "accb4325-0442-4fa5-b47d-15219e149e49")
+		)
+		(pin "7"
+			(uuid "d21847c7-2c9e-407e-b6e2-19d97727bb89")
+		)
+		(instances
+			(project ""
+				(path "/1ac9d5cb-4fb9-489b-a239-e9e55bf2c5f0"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8885,6 +9533,24 @@
 		)
 		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count - 10"
 			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 187.96 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 187.96 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9024,6 +9690,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 88.9 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 88.9 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5d774a00-e0b2-4efe-8619-05b5329fb63e")
 		)
@@ -9074,7 +9758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 220.98 147.0152 0)
 			(effects
 				(font
@@ -9094,6 +9778,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 224.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 224.79 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 224.79 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9181,6 +9883,24 @@
 			)
 		)
 		(property "messo" "si"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -9328,6 +10048,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 271.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 271.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f0137e7-1194-4404-bda7-ba321c9f13c1")
 		)
@@ -9369,7 +10107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 237.49 91.948 90)
 			(effects
 				(font
@@ -9389,6 +10127,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 237.49 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 237.49 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,6 +10222,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 60.96 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 60.96 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff2d9a52-fc57-46df-9bc6-0ff2465540bb")
 		)
@@ -9507,7 +10281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 53.34 72.6948 0)
 			(effects
 				(font
@@ -9527,6 +10301,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 49.53 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 49.53 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +10369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 103.632 26.67 90)
 			(effects
 				(font
@@ -9596,6 +10388,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 105.41 26.67 0)
 			(effects
 				(font
@@ -9647,7 +10457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 118.872 26.67 90)
 			(effects
 				(font
@@ -9666,6 +10476,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 120.65 26.67 0)
 			(effects
 				(font
@@ -9744,6 +10572,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 271.78 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 271.78 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6aa561f8-4bee-4268-9e2f-6cbdf1e6b282")
 		)
@@ -9809,6 +10655,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 154.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 154.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b66642ec-d1e8-43a9-bb00-f7847ad6da3b")
 		)
@@ -9852,7 +10716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 49.2252 123.19 0)
 			(effects
 				(font
@@ -9871,6 +10735,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 48.26 119.38 0)
 			(effects
 				(font
@@ -9940,6 +10822,24 @@
 			)
 		)
 		(property "Description" "Common 6mmx6mm Push Button"
+			(at 125.73 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 125.73 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 125.73 22.86 0)
 			(effects
 				(font
@@ -10035,6 +10935,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "0cbcbd29-1c50-4fc0-82ff-fb4e6f92f520")
 		)
@@ -10073,6 +10991,94 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 90.17 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81c2fa3a-a031-493d-8677-df906d48ce6b")
+		(property "Reference" "C5"
+			(at 93.98 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 93.98 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 91.1352 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f81d71e8-6138-4b95-8969-af0ebcc958a0")
+		)
+		(pin "2"
+			(uuid "557f68ba-91f9-43ee-b205-9b8d1a6cc736")
+		)
+		(instances
+			(project ""
+				(path "/1ac9d5cb-4fb9-489b-a239-e9e55bf2c5f0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 227.33 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10099,7 +11105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 228.2952 27.94 0)
 			(effects
 				(font
@@ -10118,6 +11124,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 227.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 227.33 24.13 0)
 			(effects
 				(font
@@ -10188,6 +11212,24 @@
 			)
 		)
 		(property "Description" "Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 227.33 43.18 0)
 			(effects
 				(font
@@ -10317,6 +11359,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 85.09 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 85.09 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f70b1a5b-d883-4266-9e42-0e2c9bca9aff")
 		)
@@ -10377,6 +11437,24 @@
 			)
 		)
 		(property "Description" "Common 6mmx6mm Push Button"
+			(at 140.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 140.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 140.97 22.86 0)
 			(effects
 				(font
@@ -10448,6 +11526,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 161.29 114.3 0)
 			(effects
 				(font
@@ -10625,7 +11721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 148.082 26.67 90)
 			(effects
 				(font
@@ -10644,6 +11740,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 149.86 26.67 0)
 			(effects
 				(font
@@ -10695,7 +11809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 157.1752 78.74 0)
 			(effects
 				(font
@@ -10714,6 +11828,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -10764,7 +11896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 38.862 58.42 90)
 			(effects
 				(font
@@ -10783,6 +11915,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 40.64 58.42 0)
 			(effects
 				(font
@@ -10832,7 +11982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 257.81 86.868 90)
 			(effects
 				(font
@@ -10852,6 +12002,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 257.81 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 257.81 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10919,6 +12087,24 @@
 			)
 		)
 		(property "Description" "Common 5mm diameter LED"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 44.45 54.61 0)
 			(effects
 				(font
@@ -10995,6 +12181,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 91.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 91.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "47912e2c-0bc5-4b20-aed8-395a620617e6")
 		)
@@ -11041,7 +12245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 134.112 26.67 90)
 			(effects
 				(font
@@ -11060,6 +12264,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 135.89 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 135.89 26.67 0)
 			(effects
 				(font
@@ -11156,6 +12378,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a729f8c4-fe33-40a4-b9eb-f8938926146b")
 		)
@@ -11236,6 +12476,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "funzione" ""
+			(at 270.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 270.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11444,6 +12702,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 254 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 254 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aed43918-eea0-4001-9723-c7723ce2dae0")
 		)
@@ -11490,7 +12766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 272.7452 26.67 0)
 			(effects
 				(font
@@ -11509,6 +12785,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 271.78 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 271.78 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
 			(at 271.78 22.86 0)
 			(effects
 				(font
@@ -11585,6 +12879,24 @@
 				(hide yes)
 			)
 		)
+		(property "funzione" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c509107d-3559-4319-a650-c790d3259bfd")
 		)
@@ -11626,7 +12938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 231.14 108.9152 0)
 			(effects
 				(font
@@ -11646,6 +12958,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "funzione" ""
+			(at 234.95 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "messa" ""
+			(at 234.95 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
