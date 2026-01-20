@@ -11,20 +11,6 @@ Kraky is not about shortcuts or hacking things blindly — it’s about **unders
 ---
 
 
-## Features (Planned & Implemented)
-
-- Wi-Fi & Bluetooth connectivity
-- Sub-GHz communication
-- RFID & NFC support
-- Infrared transceiver
-- GPIO expansion
-- microSD support *(planned)*
-- Speaker
-- Rechargeable battery with protection
-- Custom 3D-printed enclosure
-
----
-
 ## Main Components
 
 | Function | Component |
@@ -43,6 +29,14 @@ Kraky is not about shortcuts or hacking things blindly — it’s about **unders
 | Buttons | 4 tactile buttons |
 | Oscilloscope | MPU6050 |
 
+
+---
+
+## Future Features 
+
+- microSD support
+- new pcb more small
+- modularity
 
 ---
 
