@@ -18,7 +18,7 @@ Kraky is not about shortcuts or hacking things blindly — it’s about **unders
 | Logic board / Wi-Fi / Bluetooth | **ESP32-S3** |
 | Sub-GHz | **RFM98W-433S2** |
 | RFID | **RDM6300** |
-| NFC | **ST25R3911B-AQF** |
+| NFC | **PN532** |
 | Battery charger | **TP4056** |
 | Battery | Li-ion |
 | IR Receiver | **TSOP38238** |
