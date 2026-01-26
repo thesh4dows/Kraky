@@ -7,6 +7,7 @@ I’ve always wanted a Flipper Zero, but its price was always out of my reach.
 Instead of giving up, I decided to design and build my own device from scratch — not as a replacement, but as a **learning experience**.
 
 Kraky is not about shortcuts or hacking things blindly — it’s about **understanding how modern electronic tools are built**.
+Kraky is designed to be used like an educational device to experiment with all sorts of waves, you can use it however you want as long as you use it on your own things.
 
 ---
 
