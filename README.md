@@ -44,20 +44,24 @@ Kraky is designed to be used like an educational device to experiment with all s
 
 ## WIRING DIAGRAM
 
+<img width="961" height="562" alt="Immagine 2026-01-27 151441" src="https://github.com/user-attachments/assets/b058666a-f630-4128-bf92-5a74d9b27d1e" />
 
-<img width="1116" height="638" alt="Screenshot 2026-01-26 205250" src="https://github.com/user-attachments/assets/b60e0d04-9579-4dc8-ba1e-5cc596b1223b" />
+
 
 ---
 
 ## PCB 
 
-<img width="582" height="606" alt="Screenshot 2026-01-26 205322" src="https://github.com/user-attachments/assets/55043db2-8b30-4f2f-95bf-df66b4994ff1" />
+<img width="585" height="601" alt="Immagine 2026-01-27 155507" src="https://github.com/user-attachments/assets/342e4178-4a40-436d-81ef-f2e2750aef22" />
+
 
 
 ---
-## 3D RENDER 
 
-<img width="1920" height="842" alt="kraky v6" src="https://github.com/user-attachments/assets/84e6e1f8-b59a-4ac3-ba2f-b93461283ae1" />
+
+## PCB AND 3D RENDER COMBINED
+
+<img width="1515" height="798" alt="Immagine 2026-01-27 175736" src="https://github.com/user-attachments/assets/c481b13b-f083-40e0-a4b8-5c2bea290b65" />
 
 
 ---
