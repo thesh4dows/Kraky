@@ -29,6 +29,7 @@ Kraky is designed to be used like an educational device to experiment with all s
 | microSD Slot | **CM1624** *(not yet implemented in PCB)* |
 | Buttons | 4 tactile buttons |
 | Oscilloscope | MPU6050 |
+| Display | Oled Display |
 
 
 ---
@@ -85,6 +86,7 @@ Kraky is designed to be used like an educational device to experiment with all s
 | **1K ohm** | [Aliexpress](https://it.aliexpress.com/item/1005008049421850.html?spm=a2g0o.productlist.main.5.339e2072xf4Fp6&algo_pvid=60a0f9d2-cb3a-4061-b250-3a89b5594825&algo_exp_id=60a0f9d2-cb3a-4061-b250-3a89b5594825-4&pdp_ext_f=%7B%22order%22%3A%221081%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.03%211.29%21%21%2116.36%2110.40%21%40211b61bb17694589696196228e2a30%2112000043433742591%21sea%21IT%214906144315%21X%211%210%21n_tag%3A-29919%3Bd%3Af5869dfc%3Bm03_new_user%3A-29895%3BpisId%3A5000000198855826&curPageLogUid=0AoDAOfCkDU4&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008049421850%7C_p_origin_prod%3A) |
 | **10K ohm** | [Aliexpress](https://it.aliexpress.com/item/1005008049421850.html?spm=a2g0o.productlist.main.5.339e2072xf4Fp6&algo_pvid=60a0f9d2-cb3a-4061-b250-3a89b5594825&algo_exp_id=60a0f9d2-cb3a-4061-b250-3a89b5594825-4&pdp_ext_f=%7B%22order%22%3A%221081%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.03%211.29%21%21%2116.36%2110.40%21%40211b61bb17694589696196228e2a30%2112000043433742591%21sea%21IT%214906144315%21X%211%210%21n_tag%3A-29919%3Bd%3Af5869dfc%3Bm03_new_user%3A-29895%3BpisId%3A5000000198855826&curPageLogUid=0AoDAOfCkDU4&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008049421850%7C_p_origin_prod%3A) |
 | **100 ohm** | [Aliexpress](https://it.aliexpress.com/item/1005008049421850.html?spm=a2g0o.productlist.main.5.339e2072xf4Fp6&algo_pvid=60a0f9d2-cb3a-4061-b250-3a89b5594825&algo_exp_id=60a0f9d2-cb3a-4061-b250-3a89b5594825-4&pdp_ext_f=%7B%22order%22%3A%221081%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.03%211.29%21%21%2116.36%2110.40%21%40211b61bb17694589696196228e2a30%2112000043433742591%21sea%21IT%214906144315%21X%211%210%21n_tag%3A-29919%3Bd%3Af5869dfc%3Bm03_new_user%3A-29895%3BpisId%3A5000000198855826&curPageLogUid=0AoDAOfCkDU4&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008049421850%7C_p_origin_prod%3A) |
+| **Oled Display** | [Aliexpress](https://it.aliexpress.com/item/1005009180825215.html?spm=a2g0o.productlist.main.2.3d2d471bqR6akO&algo_pvid=3bf73457-57de-4609-b5e8-c52edf535fa0&algo_exp_id=3bf73457-57de-4609-b5e8-c52edf535fa0-1&pdp_ext_f=%7B%22order%22%3A%2279%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%213.36%213.06%21%21%213.90%213.55%21%402103890917695190995271643e41ef%2112000048217113638%21sea%21IT%214906144315%21X%211%210%21n_tag%3A-29919%3Bd%3Af5869dfc%3Bm03_new_user%3A-29895%3BpisId%3A5000000198855826&curPageLogUid=jkERcBiiep5C&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009180825215%7C_p_origin_prod%3A) |
 
 ---
 
