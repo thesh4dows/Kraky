@@ -44,7 +44,7 @@ Kraky is designed to be used like an educational device to experiment with all s
 
 ## WIRING DIAGRAM
 
-<img width="961" height="562" alt="Immagine 2026-01-27 151441" src="https://github.com/user-attachments/assets/b058666a-f630-4128-bf92-5a74d9b27d1e" />
+<img width="1129" height="666" alt="Screenshot 2026-01-29 185255" src="https://github.com/user-attachments/assets/5d566a27-e52f-4050-aae9-00c766c5f2c8" />
 
 
 
@@ -52,7 +52,7 @@ Kraky is designed to be used like an educational device to experiment with all s
 
 ## PCB 
 
-<img width="585" height="601" alt="Immagine 2026-01-27 155507" src="https://github.com/user-attachments/assets/342e4178-4a40-436d-81ef-f2e2750aef22" />
+<img width="578" height="585" alt="Screenshot 2026-01-29 185344" src="https://github.com/user-attachments/assets/6350b28e-c9ec-40c5-b10a-1b3b06b582d5" />
 
 
 
