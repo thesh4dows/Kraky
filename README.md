@@ -133,9 +133,3 @@ Kraky is an **open and educational project**.
 Feedback, suggestions, and improvements are always welcome.
 
 ---
-
-## License
-
-This project will be released under an **open-source license** (TBD).
-
----
