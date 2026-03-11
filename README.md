@@ -7,7 +7,8 @@ Then i've done the elettric schematic, once i redacted all the components i star
 Once i've connected all the components i've moved on making the PCB, making the PCB was easy because all the connections where there the only problem was not get tangled in that mess but i've succeded.
 With all the elettronics sorted out i moved on with the CAD and firmware, and even if they are a bit rought i'm looking forward to improving them.
 
-For the assemble I suggest putting first the TP4056, because is an smd solder, and then I suggest putting the RFM98W-433S2, because is the module with the smallest pins, and the you can decide freely the order of the soldering from now on, you can also decide to use some header pins so you can use the modules in other projects.
+For the assemble I suggest putting first the TP4056 and the U.FL connector, because they are smd soldered, and then I suggest putting the RFM98W-433S2, because is the module with the smallest pins, and the you can decide freely the order of the soldering from now on, you can also decide to use some header pins so you can use the modules in other projects.
+
 ---
 
 
