@@ -122,7 +122,7 @@ Future updates will include:
 
 - microSD implementation
 - firmware development
-- smaller PCB and SMD sodered components 
+- smaller PCB and SMD soldered components 
 
 ---
 
