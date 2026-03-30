@@ -44,7 +44,8 @@ For the assemble I suggest putting first the TP4056 and the U.FL connector, beca
 
 ## WIRING DIAGRAM
 
-<img width="1129" height="666" alt="Screenshot 2026-01-29 185255" src="https://github.com/user-attachments/assets/5d566a27-e52f-4050-aae9-00c766c5f2c8" />
+
+<img width="944" height="566" alt="Screenshot 2026-03-30 173724" src="https://github.com/user-attachments/assets/118e15c2-1031-437c-b21d-50f064063075" />
 
 
 
@@ -52,7 +53,8 @@ For the assemble I suggest putting first the TP4056 and the U.FL connector, beca
 
 ## PCB 
 
-<img width="578" height="585" alt="Screenshot 2026-01-29 185344" src="https://github.com/user-attachments/assets/6350b28e-c9ec-40c5-b10a-1b3b06b582d5" />
+
+<img width="707" height="683" alt="Screenshot 2026-03-30 173706" src="https://github.com/user-attachments/assets/3c7233c5-e705-440f-9412-26760ad89d40" />
 
 
 
